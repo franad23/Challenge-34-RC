@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(0, 90, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    background-color: blanchedalmond;
+    width: 60vw;
+    /* height: 40vh; */
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.containerSexo {
+    display: flex;
+    
+}
+.othersBtn {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    margin: 5px 0;
+    border-radius: 5px;
+}

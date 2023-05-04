@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 34</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <form action="" id="formulario">
+            Ingresa tu nombre:<input type="text" name="nombre" placeholder="" required >
+            Ingresa tu edad: <input type="number" name="edad" required>
+            <div class="containerSexo">
+                Selecciona tu Sexo: 
+                <input type="radio" name="sexo" id="sexoM" required>M
+                <input type="radio" name="sexo" id="sexoF">F
+            </div>
+            Ingresa tu peso: <input type="number" name="peso" id="" placeholder="Tu peso en kilogramos" required>
+            Ingresa tu altura: <input type="number" name="altura" id="" placeholder="Tu altura en centimetros" required>
+            Ingresa tu fecha de nacimiento: <input type="date" name="nacimiento" id="" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="othersBtn">
+            <button id="mayorEdad">Es mayor de edad?</button>
+            <button id="generacionBtn">Mostrar Generacion</button>
+            <button id="dniBtn">Generar DNI</button>
+            <button id="mostrarDatos">Mostrar Datos</button>
+
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
